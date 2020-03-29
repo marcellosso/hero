@@ -58,5 +58,6 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 
-# APIs
+# Important
 /backend/knexfile.js
+/backend/database/

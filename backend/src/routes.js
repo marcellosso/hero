@@ -2,7 +2,7 @@ const express = require('express');
 
 const routes = express.Router();
 
-app.post('/users', (req, res) => {
+routes.post('/users', (req, res) => {
     const body = req.body;
 
     console.log(body);
@@ -12,3 +12,5 @@ app.post('/users', (req, res) => {
         aluno: 'Marcel'
     })
 });
+
+module.exports = routes;
